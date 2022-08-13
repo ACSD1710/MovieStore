@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MOVIESTORE/1.0.0": {
+        "dependencies": {
+          "MovieBaseAndMethods": "1.0.0",
+          "MovieStoreClasses": "1.0.0"
+        },
+        "runtime": {
+          "MOVIESTORE.dll": {}
+        }
+      },
+      "MovieBaseAndMethods/1.0.0": {
+        "dependencies": {
+          "MovieStoreClasses": "1.0.0"
+        },
+        "runtime": {
+          "MovieBaseAndMethods.dll": {}
+        }
+      },
+      "MovieStoreClasses/1.0.0": {
+        "runtime": {
+          "MovieStoreClasses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MOVIESTORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieBaseAndMethods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieStoreClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

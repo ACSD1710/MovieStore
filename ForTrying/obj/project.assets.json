@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MovieBaseAndMethods/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MovieStoreClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieBaseAndMethods.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieBaseAndMethods.dll": {}
+        }
+      },
+      "MOVIESTORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MovieBaseAndMethods": "1.0.0",
+          "MovieStoreClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MOVIESTORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MOVIESTORE.dll": {}
+        }
+      },
+      "MovieStoreClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MovieStoreClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieStoreClasses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieBaseAndMethods/1.0.0": {
+      "type": "project",
+      "path": "../MovieBaseAndMethods/MovieBaseAndMethods.csproj",
+      "msbuildProject": "../MovieBaseAndMethods/MovieBaseAndMethods.csproj"
+    },
+    "MOVIESTORE/1.0.0": {
+      "type": "project",
+      "path": "../MOVIESTORE/MOVIESTORE.csproj",
+      "msbuildProject": "../MOVIESTORE/MOVIESTORE.csproj"
+    },
+    "MovieStoreClasses/1.0.0": {
+      "type": "project",
+      "path": "../MovieStoreClasses/MovieStoreClasses.csproj",
+      "msbuildProject": "../MovieStoreClasses/MovieStoreClasses.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MOVIESTORE >= 1.0.0",
+      "MovieBaseAndMethods >= 1.0.0",
+      "MovieStoreClasses >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\darko\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\ForTrying\\ForTrying.csproj",
+      "projectName": "ForTrying",
+      "projectPath": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\ForTrying\\ForTrying.csproj",
+      "packagesPath": "C:\\Users\\darko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\ForTrying\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MovieBaseAndMethods\\MovieBaseAndMethods.csproj": {
+              "projectPath": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MovieBaseAndMethods\\MovieBaseAndMethods.csproj"
+            },
+            "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MovieStoreClasses\\MovieStoreClasses.csproj": {
+              "projectPath": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MovieStoreClasses\\MovieStoreClasses.csproj"
+            },
+            "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MOVIESTORE\\MOVIESTORE.csproj": {
+              "projectPath": "C:\\Users\\darko\\Desktop\\MovieMOVIE2022\\MOVIESTORE\\MOVIESTORE\\MOVIESTORE.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
